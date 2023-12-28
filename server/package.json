@@ -1,0 +1,30 @@
+{
+  "name": "club_de_lectura_backend",
+  "version": "0.1.0",
+  "description": "Ejemplo de club de lectura con registro/login de usuario manteniendo la sesión con JWT usado como placeholder para implementar las iteraciones 4 y 5, la versión final aún está por terminar.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "login",
+    "registration",
+    "authentication",
+    "authorization",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Club de lectura",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.11.2"
+  }
+}

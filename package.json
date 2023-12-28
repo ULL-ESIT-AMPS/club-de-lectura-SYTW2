@@ -1,0 +1,17 @@
+{
+  "name": "club-de-lectura",
+  "version": "0.1.0",
+  "description": "Club de lectura - Aplicación MEAN para la asignatura de Sistemas y Tecnologías Web (SYTW)",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\" ",
+    "install": "npm run backend && npm run frontend",
+    "backend": "cd server && npm i",
+    "frontend": "cd client && npm i"
+     },
+  "keywords": ["MEAN", "frontend", "backend", "full stack", "MongoDB", "Express", "Angular", "Node", "JWT", "CI/CD", "Github Actions", "Codecov"],
+  "author": "AMPS",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
