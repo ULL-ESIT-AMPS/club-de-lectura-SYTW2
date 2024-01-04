@@ -1,5 +1,3 @@
 module.exports = {
-  HOST: "0.0.0.0",
-  PORT: 27017,
-  DB: "club_de_lectura"
+  HOST: "mongodb+srv://mongodbatlas:mongodbatlas@ull-esit-amps.qe2c2nc.mongodb.net/club_de_lectura"
 };
