@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: ["http://delicate-snickerdoodle-bd2d6c.netlify.app:4200"]
+    origin: ["http://localhost:4200"]
   })
 );
 
